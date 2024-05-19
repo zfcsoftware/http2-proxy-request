@@ -1,0 +1,30 @@
+{
+  "name": "http2-proxy-request",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "http2",
+    "proxy",
+    "request",
+    "node:http2",
+    "http2-proxy",
+    "http2-request",
+    "node:http2-proxy"
+  ],
+  "author": "zfcsoftware",
+  "license": "ISC",
+  "description": "This library allows you to send requests using a proxy with the http2 protocol. If you don't need to use it with a proxy, check the node:http2 library.",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "http2": "^3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zfcsoftware/http2-proxy-request"
+  },
+  "readme": "README.md",
+  "homepage": "https://github.com/zfcsoftware/http2-proxy-request"
+}
